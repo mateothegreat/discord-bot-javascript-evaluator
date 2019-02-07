@@ -5,6 +5,8 @@
 #  \__, /\____/_/ /_/ /_/\__,_/\__/\___/\____/\__,_/
 # /____                     matthewdavis.io, holla!
 #
+include .make/Makefile.inc
+
 VERSION ?= $(shell git rev-parse HEAD)
 IMAGE   ?= mateothegreat/discord-bot-javascript-evaluator
 
