@@ -14,3 +14,6 @@ spec:                               # The official specification matching object
       containers:                   # List of containers belonging to this pod (cannot be changed/updated)
         - name: $APP                 # Name of this container
           image: $IMAGE                # Docker image used for this container
+          env:
+            - name: TOKEN
+              value: $TOKEN
