@@ -10,7 +10,7 @@ $ npm start
 
 ± |master S:1 U:2 ✗| → npm start
 
-> discord-bot-javascript-evaluator@1.0.0 start /Users/yomateod/workspace/work/discord.space/discord.space-bot-root
+> discord-bot-javascript-evaluator@1.0.0 start /Users/yomateod/workspace/work/discord-bot-javascript-evaluator
 > node bot.js
 
 Thu Feb 07 2019 03:29:17 GMT-0500 (Eastern Standard Time) bot started!
