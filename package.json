@@ -1,5 +1,5 @@
 {
-    "name": "@mateothegreat/discord-bot-javascript-evaluator",
+    "name": "discord-bot-javascript-evaluator",
     "version": "1.0.0",
     "description": "Discord Bot that Executes and returns Javascript Code",
     "main": "bot.js",
