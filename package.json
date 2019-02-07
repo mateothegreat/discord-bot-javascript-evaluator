@@ -1,14 +1,27 @@
 {
-    "name": "@ngxui/discord.space-bot-root",
+    "name": "@mateothegreat/discord-bot-javascript-evaluator",
     "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
+    "description": "Discord Bot that Executes and returns Javascript Code",
+    "main": "bot.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "node bot.js"
     },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
+    "keywords": [
+        "discord",
+        "eval",
+        "bot"
+    ],
+    "author": {
+        "email": "matthew@matthewdavis.io",
+        "name": "Matthew Davis",
+        "url": "https://matthewdavis.io"
+    },
+    "homepage": "https://matthewdavis.io",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mateothegreat/discord-bot-javascript-evaluator"
+    },
     "dependencies": {
         "discord.js": "^11.4.2",
         "dotenv": "^6.2.0",
