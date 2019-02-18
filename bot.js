@@ -84,6 +84,18 @@ bot.on('message', message => {
 
         }
 
+    } else if (message.content.indexOf('!') === 0) {
+
+        if (message.content === '!version') {
+
+            message.reply('Version: ' + process.env.VERSION);
+
+        } else {
+
+            message.reply('unknown command');
+
+        }
+
     }
 
 });
