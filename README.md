@@ -6,6 +6,7 @@
 ```bash
 $ git clone https://github.com/mateothegreat/discord-bot-javascript-evaluator
 $ cd discord-bot-javascript-evaluator
+$ npm install
 $ npm start
 
 ± |master S:1 U:2 ✗| → npm start
